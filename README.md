@@ -2,6 +2,10 @@
 
 Angular Universal carousel
 
+# This is a fork!
+
+This is a temporary fork of `@ngu/carousel` that supports Angular 9. When they merge the PR associated with this change, this fork will be removed!
+
 `Note: This carousel doesn't include any css. go and customize css for buttons, items except ngucarousel and ngucarousel-inner`
 
 ## changelog [![npm version](https://badge.fury.io/js/%40ngu%2Fcarousel.svg)](https://badge.fury.io/js/%40ngu%2Fcarousel)
@@ -16,12 +20,12 @@ Demo available [Here](https://ngu-carousel.firebaseapp.com)
 
 ## Installation
 
-`npm install @ngu/carousel --save`
+`npm install @stockopedia/carousel --save`
 
 Include CarouselModule in your app module:
 
 ```javascript
-import { NguCarouselModule } from '@ngu/carousel';
+import { NguCarouselModule } from '@stockopedia/carousel';
 
 @NgModule({
   imports: [NguCarouselModule]
@@ -43,7 +47,7 @@ Then use in your component:
 
 ```javascript
 import { Component, OnInit } from '@angular/core';
-import { NguCarouselConfig } from '@ngu/carousel';
+import { NguCarouselConfig } from '@stockopedia/carousel';
 
 @Component({
   selector: 'sample',
@@ -256,7 +260,7 @@ This is HTML I'm using in the carousel. Add your own css according to this eleme
 
 ```javascript
 import { Component } from '@angular/core';
-import { NguCarousel, NguCarouselStore } from '@ngu/carousel';
+import { NguCarousel, NguCarouselStore } from '@stockopedia/carousel';
 
 @Component({
   selector: 'app-carousel',
@@ -345,7 +349,7 @@ export class Sample implements OnInit {
 
 ```javascript
 import { Component } from '@angular/core';
-import { NguCarousel, NguCarouselConfig } from '@ngu/carousel';
+import { NguCarousel, NguCarouselConfig } from '@stockopedia/carousel';
 
 @Component({
   selector: 'app-carousel',
@@ -461,7 +465,7 @@ export class Sample implements OnInit {
 
 ```javascript
 import { Component } from '@angular/core';
-import { NguCarousel, NguCarouselConfig } from '@ngu/carousel';
+import { NguCarousel, NguCarouselConfig } from '@stockopedia/carousel';
 
 @Component({
   selector: 'app-carousel',
@@ -572,7 +576,7 @@ export class Sample implements OnInit {
 
 ```javascript
 import { Component } from '@angular/core';
-import { NguCarousel } from '@ngu/carousel';
+import { NguCarousel } from '@stockopedia/carousel';
 
 @Component({
   selector: 'app-carousel',

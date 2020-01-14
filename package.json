@@ -1,5 +1,5 @@
 {
-  "name": "ngu-carousel-example",
+  "name": "@stockopedia/carousel",
   "version": "2.0.0",
   "scripts": {
     "ng": "ng",
@@ -7,10 +7,9 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "run-lib": "ng build --prod --project ngu-carousel && ng serve",
+    "publish": "ng build --prod --project=ngu-carousel && cd dist/ngu-carousel && npm publish --access=public",
     "e2e": "ng e2e"
   },
-  "private": true,
   "dependencies": {
     "@angular/animations": "~9.0.0-rc.7",
     "@angular/common": "~9.0.0-rc.7",
